@@ -17,9 +17,7 @@ class _HomeState extends State<Home> {
         height: MediaQuery.sizeOf(context).height,
         child: Center(
           child: Container(
-            child: Center(
-              child: Text("Pick A Country"),
-            ),
+            child: const Center(child: Text("Pick A Country", style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500))),
           ),
         ),
       ),
