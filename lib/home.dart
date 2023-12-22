@@ -26,7 +26,6 @@ class _HomeState extends State<Home> {
                 useSafeArea: true,
                 context: context,
                 onSelect: (Country value) {
-                  print(value.);
                   setState(() {
                     _isDay = !_isDay;
                   });
