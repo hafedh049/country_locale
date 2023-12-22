@@ -21,6 +21,9 @@ class _HomeState extends State<Home> {
           child: GestureDetector(
             onTap: () {
               showCountryPicker(
+                showPhoneCode: true,
+                showWorldWide: true,
+                useSafeArea: true,
                 context: context,
                 onSelect: (Country value) {
                   setState(() {
