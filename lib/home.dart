@@ -10,11 +10,13 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
+    return Scaffold(
       body: Container(
         width: MediaQuery.sizeOf(context).width,
         height: MediaQuery.sizeOf(context).height,
-        child: Center(child: ,),
+        child: Center(
+          child: Count,
+        ),
       ),
     );
   }
