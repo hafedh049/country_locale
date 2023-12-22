@@ -1,3 +1,4 @@
+import 'package:country_picker/country_picker.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -15,7 +16,11 @@ class _HomeState extends State<Home> {
         width: MediaQuery.sizeOf(context).width,
         height: MediaQuery.sizeOf(context).height,
         child: Center(
-          child: Count,
+          child: Container(
+            child: Center(
+              child: Text("Pick A Country"),
+            ),
+          ),
         ),
       ),
     );
