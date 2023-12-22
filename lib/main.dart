@@ -1,3 +1,4 @@
+import 'package:country_locale/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,6 +13,7 @@ class Main extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
+      home: const Home(),
     );
   }
 }

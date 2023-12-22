@@ -14,9 +14,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        decoration: const BoxDecoration(
-          image: DecorationImage(image: AssetImage("assets/")),
-        ),
+        decoration: BoxDecoration(image: DecorationImage(image: AssetImage("assets/${_isDay ? 'day' : 'night'}.jpg"), fit: BoxFit.cover)),
         width: MediaQuery.sizeOf(context).width,
         height: MediaQuery.sizeOf(context).height,
         child: Center(
